@@ -2,110 +2,129 @@
         {
           display:none;
         }
-        
         body, html
         {
           scrollbar-width: none; /* Firefox 64 */
           font-family: 'Roboto Condensed', sans-serif;  
         }
 /*HOME*/
-        .carousel.carousel-fade .carousel-item {
-          opacity: 0;
-          transition: opacity ease-out .7s;
-        }
-        .carousel.carousel-fade .carousel-item.active {
-          opacity: 1;
-          transition: opacity ease-out .7s;
-        }
-        #homeslide
+       
+       
+       
+        #home
         {
-          background-image: url(hand3.webp),
-          radial-gradient(circle at 0% 0%,rgba(0, 238, 255, 0.08) 20%,hsla(0,0%,100%,0) 22%),
-          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 30%,hsla(0,0%,100%,0) 33%),
-          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 40%,hsla(0,0%,100%,0) 44%),
-          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 50%,hsla(0,0%,100%,0) 55%),
-          radial-gradient(circle at 100% 100%,rgba(255, 255, 255, 0.034) 19.8%,hsla(0,0%,100%,0) 30%),
-          linear-gradient(0deg,#0d236e  0%,   #043be0 100% );
+          background-image:
+          linear-gradient( 100deg, transparent 0%, transparent 50%, #010616 73%, #010616 100% ),
+          linear-gradient( 175deg, transparent 0%, transparent 50%, #010616 73%, #010616 100% ),
+          url(1280.webp),
+          linear-gradient( 90deg,  #000000, #010616 100% );
+          background-size: contain;
           width: 100%;
           position:relative;
           height: 100vh;
           background-repeat: no-repeat;
-          background-size: contain!important;
-          background-position:  top right;
           display: flex;
           flex-direction: row;
-          justify-content: left;
-          align-items: center;
-        }
-        #content
-        {
-          position:absolute; 
-          max-width: 800px; 
-        }
-        #homeslide h1
-        {
-          color: rgb(212, 226, 252);
-          font-weight: 700;
-          font-size: 55px;
-          text-shadow: 0.1em 0.1em 0.2em black;
-        }
-        #rec
-        {
-          color: white;
-          font-weight: 600;
-          text-shadow: 0.1em 0.1em 0.2em black;
-        }
-        h5{
-          color: white;
-          font-weight: 600;
-          text-shadow: 0.1em 0.1em 0.2em black; 
-        }
-        @media (max-width: 912px) 
-        {  
-          #homeslide
-          {
-    
-            background-image: url(hand3_mobile.webp),
-            radial-gradient(circle at 0% 0%,rgba(0, 238, 255, 0.08) 20%,hsla(0,0%,100%,0) 22%),
-            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 30%,hsla(0,0%,100%,0) 33%),
-            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 40%,hsla(0,0%,100%,0) 44%),
-            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 50%,hsla(0,0%,100%,0) 55%),
-            radial-gradient(circle at 100% 100%,rgba(255, 255, 255, 0.034) 19.8%,hsla(0,0%,100%,0) 30%),
-            linear-gradient(0deg,#0d236e  0%,   #043be0 100% );
-            vertical-align: middle;
-            background-repeat: no-repeat;
-            background-position:  bottom right  ;
-            background-size:contain;
-            height: 100vh;   
-          }
+          justify-content: center;
+          text-align: center;
+          align-items: flex-end;
 
-          #content
+        }
+        #home .row
+        {
+          text-align: center;
+          align-items: center;     
+        }
+        #home p
+        {
+          color: white;
+          font-size: medium;
+        }
+        #home img
+        {
+          width: 80%;
+          height: auto;
+          margin-top: 2rem;
+        }
+        #home svg
+        {
+          width: 100%;
+          height: auto;
+          margin-bottom: 2rem;
+        }
+        @media (max-width: 912px)  
+        {
+          #home
           {
-            position: relative; 
-            max-width: 800px; 
+            background-image:
+            linear-gradient( 109deg, transparent 0%, transparent 50%, #010616 73%, #010616 100% ),
+            linear-gradient( 175deg, transparent 0%, transparent 50%, #010616 73%, #010616 100% ),
+            url(mobile.webp),
+            linear-gradient( 90deg,  #000000, #010616 100% );   
+            align-items: flex-end;    
           }
-          #homeslide h1 
-          {
-            color: rgb(212, 226, 252);
-            font-weight: 600;
-            font-size: 30px;
-            text-shadow: 0.1em 0.1em 0.2em black;
-          }
-          h5
+          #home p
           {
             font-size: 12px;
-            text-shadow: 0.1em 0.1em 0.2em black;
-          }
-          #rec
-          {
-            color: white;
-            font-weight: 600;
-            font-size: 20px;
+            margin-bottom: 2rem;
           }
         }
-
-
-
+/*sgv*/
+        #logo15anos 
+        {
+          stroke-width: 0px;
+          width: 100%;
+          height: auto;
+          transition: transform 0.5s ease-out;
+        }
+        .quinze 
+        {
+          fill:none;
+          stroke:#C79848; 
+          stroke-width:2;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          -webkit-animation: summerbird-quinze 3.0s linear forwards 0.5s;
+          animation: summerbird-quinze 3.0s linear forwards 0.5s;
+        }
+        @-webkit-keyframes summerbird-quinze 
+        {
+          0% 
+          {
+            fill-opacity: 0;
+          }
+          80% 
+          {
+            fill-opacity: 0;
+          }
+          100% 
+          {
+            fill-opacity: 1;
+            fill: #C79848;
+            stroke-dashoffset: 0;
+          }
+        }
+        .year 
+        {
+          fill:none;
+          stroke:#800707; 
+          stroke-width:5;
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation:  dash 5s linear forwards;
+        }
+        @keyframes dash 
+        {
+          from 
+          {
+            stroke-dashoffset: 822;
+          }
+          to 
+          {
+            stroke-dashoffset: 0;
+          }
+        }
+        
 /* botão enviar formulario*/
         #envform
         {
@@ -142,21 +161,17 @@
         }
 
 /*botão link*/
-/* MARKETING CONTENT */
-/**/
-/* rtl:begin:ignore */
-/* rtl:end:ignore */
-/*recurso */
-
-  
-  
-/* RESPONSIVE CSS*/
-  
-        @media (min-width: 40em) 
+        #linkclique
         {
-/* Bump up size of carousel content */
-
-          }
- 
-
-     
+          color: rgb(0, 19, 105);
+          font-size: 25px;
+        }
+        #linkclique:hover
+        { 
+          background:rgb(0, 19, 105);
+          box-shadow:0 5px 5px #4d4d4dcc;
+          color: rgb(255, 255, 255);
+          padding: 10px;
+          border-radius: 10px;     
+        }
+  
