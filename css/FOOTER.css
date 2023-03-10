@@ -1,0 +1,99 @@
+        #myFooter 
+        {
+            background-color: #f0efefe7;
+            color: rgb(51, 26, 192);
+            padding-top: 25px;
+        }
+        #myFooter .footer-copyright 
+        {
+            background-color:rgb(224, 224, 224);
+            padding-top: 1px;
+            padding-bottom: 3px;
+            text-align: center;
+            font-size: small;
+        }
+        #myFooter .row 
+        {
+            margin-bottom: 30px;
+        }
+        #myFooter .footer-copyright p 
+        {
+            margin: 5px;
+            color: rgb(0, 0, 0);
+        }
+        #myFooter ul 
+        {
+            list-style-type: none;
+            padding-left: 0;
+            line-height: 1.7;
+        }
+        #myFooter h4 
+        {
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        #myFooter h2 a
+        {
+            font-size: 50px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        #myFooter a 
+        {
+            color: #000000;
+            text-decoration: none;
+        }
+        #myFooter a:hover,
+        #myFooter a:focus {
+            text-decoration: none;
+            color: rgb(0, 17, 255);
+        }
+        #myFooter .btn 
+        {
+            color: white;
+            background-color:#0000FF;
+            border-radius: 50px;
+            border: none;
+            width: 40px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            line-height: 28px;
+        }
+        @media screen and (max-width: 767px) 
+        {
+            #myFooter 
+            {
+                text-align: center;
+            }
+        }
+        #myFooter .social-networks 
+        {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 16px;
+        }
+        #myFooter .social-networks a 
+        {
+            font-size: 32px;
+            color: #000000;
+            padding: 10px;
+            transition: 0.2s;
+        }
+        #myFooter .social-networks a:hover
+        {
+            text-decoration: none;
+        }
+        #myFooter .facebook:hover {
+            color: #0077e2;
+        }
+        #myFooter .instagram:hover 
+        {
+            color: purple;
+        }
+        #card-body
+        {
+            background-color: transparent!important;
+        }

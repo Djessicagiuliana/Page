@@ -1,0 +1,109 @@
+        @media only screen 
+        and (min-device-width : 320px) 
+        and (max-device-width : 640px)
+        {
+            .balao
+            {
+                height: 1250px!important; 
+                width: 100%;
+            }
+            .parallax
+            {
+                height: 1250px!important;
+                width: 100%;
+                background-size: cover;
+            } 
+        }
+
+        @media only screen 
+        and (min-device-width : 320px) 
+        and (max-device-width : 359px)
+        {
+            .balao
+            {
+                height: 1700px!important; 
+                width: 100%;
+
+            }
+            .parallax
+            {
+                height: 1700px!important;
+                width: 100%;
+                background-size:100% 100%;
+                background-position: center center !important; 
+                background-size: cover;
+            }
+        }
+
+        @media only screen 
+        and (min-device-width : 280px) 
+        and (max-device-width : 653px)
+        {
+            .balao
+            {
+                height: 1800px; width: 100%;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            .parallax
+            {
+                height: 1800px; width: 100%;
+            }   
+        }
+   
+        @media only screen 
+        and (min-device-width : 540px) 
+        and (max-device-width : 720px)
+        {
+            .balao
+            {
+                height: 1000px!important; width: 100%;
+            }
+            .parallax
+            {
+                height: 1000px!important; width: 100%;
+            }
+        }
+
+        @media only screen 
+        and (min-device-width : 410px) 
+        and (max-device-width : 700px)
+        {
+            .balao
+            {
+                height: 1100px!important; width: 100%;
+            }
+            .parallax
+            {
+                height: 1100px!important; width: 100%;
+            }
+        }
+
+        @media only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px) 
+        and (orientation : portrait) 
+        {
+            .balao 
+            {
+                height: 700px; width: 100%;
+                overflow-x: hidden;
+            }
+            .parallax
+            {
+                height: 700px; width: 100%;
+            }
+        }
+
+        @media screen and (min-width: 1024px)
+        {
+            .balao 
+            {
+                height: 600px!important; width: 100%;
+                overflow-x: hidden;
+            }
+            .parallax
+            {
+                height: 600px!important; width: 100%;
+            }
+        }

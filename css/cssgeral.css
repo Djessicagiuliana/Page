@@ -1,0 +1,162 @@
+        ::-webkit-scrollbar 
+        {
+          display:none;
+        }
+        
+        body, html
+        {
+          scrollbar-width: none; /* Firefox 64 */
+          font-family: 'Roboto Condensed', sans-serif;  
+        }
+/*HOME*/
+        .carousel.carousel-fade .carousel-item {
+          opacity: 0;
+          transition: opacity ease-out .7s;
+        }
+        .carousel.carousel-fade .carousel-item.active {
+          opacity: 1;
+          transition: opacity ease-out .7s;
+        }
+        #homeslide
+        {
+          background-image: url(hand3.webp),
+          radial-gradient(circle at 0% 0%,rgba(0, 238, 255, 0.08) 20%,hsla(0,0%,100%,0) 22%),
+          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 30%,hsla(0,0%,100%,0) 33%),
+          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 40%,hsla(0,0%,100%,0) 44%),
+          radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 50%,hsla(0,0%,100%,0) 55%),
+          radial-gradient(circle at 100% 100%,rgba(255, 255, 255, 0.034) 19.8%,hsla(0,0%,100%,0) 30%),
+          linear-gradient(0deg,#0d236e  0%,   #043be0 100% );
+          width: 100%;
+          position:relative;
+          height: 100vh;
+          background-repeat: no-repeat;
+          background-size: contain!important;
+          background-position:  top right;
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          align-items: center;
+        }
+        #content
+        {
+          position:absolute; 
+          max-width: 800px; 
+        }
+        #homeslide h1
+        {
+          color: rgb(212, 226, 252);
+          font-weight: 700;
+          font-size: 55px;
+          text-shadow: 0.1em 0.1em 0.2em black;
+        }
+        #rec
+        {
+          color: white;
+          font-weight: 600;
+          text-shadow: 0.1em 0.1em 0.2em black;
+        }
+        h5{
+          color: white;
+          font-weight: 600;
+          text-shadow: 0.1em 0.1em 0.2em black; 
+        }
+        @media (max-width: 912px) 
+        {  
+          #homeslide
+          {
+    
+            background-image: url(hand3_mobile.webp),
+            radial-gradient(circle at 0% 0%,rgba(0, 238, 255, 0.08) 20%,hsla(0,0%,100%,0) 22%),
+            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 30%,hsla(0,0%,100%,0) 33%),
+            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 40%,hsla(0,0%,100%,0) 44%),
+            radial-gradient(circle at 0% 0%,rgba(0, 247, 255, 0.08) 50%,hsla(0,0%,100%,0) 55%),
+            radial-gradient(circle at 100% 100%,rgba(255, 255, 255, 0.034) 19.8%,hsla(0,0%,100%,0) 30%),
+            linear-gradient(0deg,#0d236e  0%,   #043be0 100% );
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-position:  bottom right  ;
+            background-size:contain;
+            height: 100vh;   
+          }
+
+          #content
+          {
+            position: relative; 
+            max-width: 800px; 
+          }
+          #homeslide h1 
+          {
+            color: rgb(212, 226, 252);
+            font-weight: 600;
+            font-size: 30px;
+            text-shadow: 0.1em 0.1em 0.2em black;
+          }
+          h5
+          {
+            font-size: 12px;
+            text-shadow: 0.1em 0.1em 0.2em black;
+          }
+          #rec
+          {
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+
+
+
+/* botão enviar formulario*/
+        #envform
+        {
+          margin-left: 5px;
+          font-weight:700;
+          text-transform: uppercase;
+          border:none;
+          padding:5px 15px 5px 15px;
+          cursor: pointer;
+          display:inline-block;
+          text-decoration: none;
+          background:#0f77ff;
+          color:#fff;
+          box-shadow:0 5px 0 #0d5fca;  
+        }  
+        #envform:hover
+        { 
+          background:#0f77ff;
+          box-shadow:0 5px 0 #0d5fca;
+          color: rgb(255, 255, 255);
+        }
+        #envform:active
+        {
+          position:relative;
+          top:5px;
+          box-shadow:none;
+        }
+
+
+/* formulario*/
+        #formulario
+        {
+          margin-bottom: 4rem;
+        }
+
+/*botão link*/
+/* MARKETING CONTENT */
+/**/
+/* rtl:begin:ignore */
+/* rtl:end:ignore */
+/*recurso */
+
+  
+  
+/* RESPONSIVE CSS*/
+  
+        @media (min-width: 40em) 
+        {
+/* Bump up size of carousel content */
+
+          }
+ 
+
+     
